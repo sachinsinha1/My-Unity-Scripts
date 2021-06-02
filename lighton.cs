@@ -56,9 +56,9 @@ public class lighton : MonoBehaviour
                                  lightMesh[i].SetActive(false);
                              }
                             lightStatusLiv = false;
-                        }
-                        
+                        }                        
                     }
+					
                     else if (hit.collider.gameObject.CompareTag("switchBedRoom"))
                 {
                     if (lightStatusBed == false)
