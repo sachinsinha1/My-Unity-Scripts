@@ -8,6 +8,7 @@ public class matChangeUI : MonoBehaviour
     void Start()
     {
         //can.gameObject.SetActive(false);
+		//can.gameObject.SetActive(false);
 		
         TextureHolder.SetActive(false);
         BedRoomTexture1.SetActive(false);
