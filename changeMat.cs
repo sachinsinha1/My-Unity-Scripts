@@ -18,7 +18,6 @@ public class changeMat : MonoBehaviour
         renderMat.sharedMaterial = material[x];
     }
 
-
     // Update is called once per frame
     void Update()
     {
