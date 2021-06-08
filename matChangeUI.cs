@@ -77,7 +77,7 @@ public class matChangeUI : MonoBehaviour
             }
         }
         
-		
+
         if (Input.GetKeyDown(KeyCode.Escape) && canvasEnable == true)
         {
             TextureHolder.SetActive(false);
