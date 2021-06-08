@@ -16,7 +16,6 @@ public class changeMat : MonoBehaviour
         renderMat = GetComponent<Renderer>();
         renderMat.enabled = true;
         renderMat.sharedMaterial = material[x];
-
     }
 
     // Update is called once per frame
