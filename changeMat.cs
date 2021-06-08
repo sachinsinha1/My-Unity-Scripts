@@ -44,4 +44,3 @@ public class changeMat : MonoBehaviour
         x = 3;
     }
 }
-
