@@ -30,8 +30,7 @@ public class moveButton : MonoBehaviour
                 center += new Vector3(0, 0, 0.1f);
                 eButton.transform.position = center;
                 eButton.SetActive(true);
-                
-            }
+                            }
         }
         else
         {
