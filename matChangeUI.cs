@@ -68,7 +68,6 @@ public class matChangeUI : MonoBehaviour
             }
             else
             {
-                //can.gameObject.SetActive(false);
                 TextureHolder.SetActive(false);
                 BedRoomTexture1.SetActive(false);
                 BedRoomTexture2.SetActive(false);
@@ -80,7 +79,6 @@ public class matChangeUI : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Escape) && canvasEnable == true)
         {
-            //can.gameObject.SetActive(false);
             TextureHolder.SetActive(false);
             BedRoomTexture1.SetActive(false);
             BedRoomTexture2.SetActive(false);
