@@ -29,7 +29,6 @@ public class slideDoor : MonoBehaviour
                 doorOpenS = true;
             }
         }
-
     }
 
     private void OnTriggerEnter(Collider other)
