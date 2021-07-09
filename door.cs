@@ -49,8 +49,7 @@ public class door : MonoBehaviour
                     }
 
 
-                }
-                
+                }                
             }
         }
         if (doorOpen)
