@@ -56,8 +56,7 @@ public class wardrobeDoor : MonoBehaviour
            
         }
         if (!doorOpen)
-        {
-            
+        {            
             Vector3 closepos = new Vector3(-1.29f, 0.0f, 0.0f) + doorRpos;
             doorR.transform.position = Vector3.Lerp(doorR.transform.position, closepos, Time.deltaTime * 2f);
 
